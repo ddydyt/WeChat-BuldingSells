@@ -1,0 +1,118 @@
+<view>
+	<view>
+		<!-- 统一认证 -->
+		<view style="text-align:center;">统一认证</view>
+		<view>您确保本人电话、身份证、银行卡账号准确无误，所绑定的银行卡仅用于接受佣金奖励，安全可靠。</view>
+		<!-- 表格 -->
+		<form>
+			<view class="form-item-container">
+				<!-- 左侧 -->
+				<label>
+					<text class="iconfont icon-lajitong"></text>
+					<text>真实姓名</text>
+				</label>
+				<!-- 右侧 -->
+				<view>
+					<input placeholder="谢某" value="{{ realName }}" bindinput="listenRealName"></input>
+				</view>
+			</view>
+			<view class="form-item-container">
+				<!-- 左侧 -->
+				<label>
+					<text class="iconfont icon-lajitong"></text>
+					<text>联系方式</text>
+				</label>
+				<!-- 右侧 -->
+				<view>
+					<input placeholder="输入手机号" value="{{ mobile }}" bindinput="listenMobile"></input>
+				</view>
+			</view>
+			<view class="form-item-container">
+				<!-- 左侧 -->
+				<label>
+					<text class="iconfont icon-lajitong"></text>
+					<text>证件类型</text>
+				</label>
+				<!-- 右侧 -->
+				<view>
+					<input placeholder="身份证"></input>
+				</view>
+			</view>
+			<view class="form-item-container">
+				<!-- 左侧 -->
+				<label>
+					<text class="iconfont icon-lajitong"></text>
+					<text>证件号码</text>
+				</label>
+				<!-- 右侧 -->
+				<view>
+					<input placeholder="请输入证件号码" value="{{ idCard }}" bindinput="listenIdCard"></input>
+				</view>
+			</view>
+			<view class="form-item-container">
+				<!-- 左侧 -->
+				<label>
+					<text class="iconfont icon-lajitong"></text>
+					<text>常住地</text>
+				</label>
+				<!-- 右侧 -->
+				<view>
+					<input placeholder="请输入常住地" value="{{ location }}" bindinput="listenLocation"></input>
+				</view>
+			</view>
+			<view class="form-item-container">
+				<!-- 左侧 -->
+				<label>
+					<text class="iconfont icon-lajitong"></text>
+					<text>身份类型</text>
+				</label>
+				<!-- 右侧 -->
+				<view>
+					<input placeholder="其他"></input>
+				</view>
+			</view>
+			<view class="form-item-container">
+				<!-- 左侧 -->
+				<label>
+					<text class="iconfont icon-lajitong"></text>
+					<text>开户行</text>
+				</label>
+				<!-- 右侧 -->
+				<view>
+					<input placeholder="选择一个银行" value="{{ bank }}" bindinput="listenBank"></input>
+				</view>
+			</view>
+			<view class="form-item-container">
+				<!-- 左侧 -->
+				<label>
+					<text class="iconfont icon-lajitong"></text>
+					<text>银行账号</text>
+				</label>
+				<!-- 右侧 -->
+				<view>
+					<input placeholder="输入银行卡账号" value="{{ bankId }}" bindinput="listenBankId"></input>
+				</view>
+			</view>
+			<view class="form-item-container">
+				<!-- 左侧 -->
+				<label>
+					<text class="iconfont icon-lajitong"></text>
+					<text>账户名</text>
+				</label>
+				<!-- 右侧 -->
+				<view>
+					<input placeholder="输入账户名" value="{{ bankName }}" bindinput="listenBankName"></input>
+				</view>
+			</view>
+			<!-- 提交修改 -->
+			<view style="margin-top:10px;">
+			<button style="width:90%;background-color:rgb(230,45,45);color:white;font-weight:500;" bindtap="alterUserInfo">确认修改</button>
+			</view>
+			<!-- 退出登录 -->
+			<view style="margin-top:30px;">
+			<button style="width:90%;background-color:white;color:rgb(230,45,45);font-weight:500;border:1px solid rgb(230,45,45);" bindtap="logout">退出登录</button>
+			</view>
+		</form>
+
+	</view>
+</view>

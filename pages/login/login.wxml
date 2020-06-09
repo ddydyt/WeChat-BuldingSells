@@ -1,0 +1,37 @@
+<view>
+	<!-- 登录 -->
+	<view>
+		<text>登录</text>
+	</view>
+
+	<!-- 表单 -->
+	<form class="form-container">
+		<view class="input-container">
+			<!-- 手机 -->
+			<view>
+				<label>手机</label>
+				<input placeholder="请输入用户名/手机号码" bindinput="listenMobile"></input>
+			</view>
+			<!-- 密码 -->
+			<view>
+				<label>密码</label>
+				<input type="password" placeholder="请输入密码" bindinput="listenPwd"></input>
+			</view>
+		</view>
+		<!-- 登录按钮 -->
+		<view class="btn-container">
+			<button bindtap="loginBtn">登录</button>
+		</view>
+	</form>
+	<!-- 忘记密码和立即注册 -->
+	<view class="pwd-reg-container">
+		<!-- 忘记密码 -->
+		<view>
+      <navigator>忘记密码?</navigator>
+    </view>
+		<!-- 立即注册 -->
+		<view>
+      <navigator url="../register/register">没有账号? 立即注册</navigator>
+    </view>
+	</view>
+</view>

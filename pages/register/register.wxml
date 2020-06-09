@@ -1,0 +1,44 @@
+<view>
+	<!-- 兼职销售员注册 -->
+	<view>
+		<text>兼职销售员注册</text>
+	</view>
+	<!-- 注册表单 -->
+	<form class="form-container">
+		<view class="input-container">
+			<!-- 姓名 -->
+			<view>
+				<label>姓名</label>
+				<input placeholder="请输入姓名(必填)"></input>
+			</view>
+			<!-- 手机 -->
+			<view>
+				<label>手机</label>
+				<input placeholder="请输入手机号码"></input>
+			</view>
+			<!-- 验证码 -->
+			<view>
+				<label>验证码</label>
+				<input placeholder="验证码"></input>
+			</view>
+			<!-- 输入密码 -->
+			<view>
+				<label>输入密码</label>
+				<input type="password" placeholder="请输入密码"></input>
+			</view>
+			<!-- 确认面膜 -->
+			<view>
+				<label>再输入密码</label>
+				<input type="password" placeholder="请输入手机号码"></input>
+			</view>
+		</view>
+		<!-- 登录按钮 -->
+		<view class="btn-container">
+			<button>登录</button>
+		</view>
+	</form>
+  <!-- 直接登录 -->
+  <view class="login-container">
+  <navigator url="../login/login">已有账号, 直接登录</navigator>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+<view>
+	<!-- 列表渲染 -->
+	<view>
+		<block wx:for="{{ list }}" wx:key="*this">
+			<navigator class="list-container">
+				<!-- 图片 -->
+				<view class="items-pic-container">
+					<image src="http://t8.baidu.com/it/u=1484500186,1503043093&fm=79&app=86&f=JPEG?w=1280&h=853"></image>
+				</view>
+				<!-- 标题和部分内容 -->
+				<view class="items-detail-container">
+					<view class="list-title-container">{{ item.title }}</view>
+					<text class="list-content-container">{{ item.content }}</text>
+					<view>{{ item.time }}</view>
+				</view>
+			</navigator>
+		</block>
+	</view>
+</view>

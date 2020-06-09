@@ -1,0 +1,25 @@
+<view>
+	<!-- 我的消息 -->
+	<view class="msg-container">
+		<navigator>我的消息</navigator>
+		<navigator>系统消息</navigator>
+	</view>
+
+	<!-- 列表渲染 -->
+	<view class="list-container">
+		<navigator>
+			<view>
+				<view>商铺推荐奖励重磅升级【韶关恒大城】芙蓉新城核心地段，尽享便捷</view>
+				<view>
+					2019-05-09 15:29:33
+				</view>
+			</view>
+
+			<!-- 右侧箭头 -->
+			<view class="jiantou">
+				<text class="iconfont icon-iconfontzhizuobiaozhun023127"></text>
+			</view>
+		</navigator>
+	</view>
+
+</view>

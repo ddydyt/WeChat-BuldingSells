@@ -1,0 +1,49 @@
+<view>
+	<view class="form-container">
+		<view>
+			<label>被推荐人姓名</label>
+			<input type="text" placeholder="请输入客户姓名" />
+		</view>
+		<view>
+			<label>被推荐人手机号</label>
+			<input type="text" placeholder="请输入手机号码" />
+		</view>
+		<view>
+			<label>被推荐人证件号</label>
+			<input type="text" placeholder="请输入证件号码" />
+		</view>
+		<view>
+			<label>城市</label>
+			<text>广东</text>
+		</view>
+		<view>
+			<label>意向楼盘</label>
+			<input type="text" placeholder="请选择意向楼盘" />
+		</view>
+		<view>
+			<label>预计看房日期</label>
+			<input type="text" placeholder="请选择时间" />
+		</view>
+		<view>
+			<label>购房客户需求</label>
+			<input type="text" placeholder="可多选" />
+		</view>
+		<view>
+			<label>备注</label>
+			<input type="text" placeholder="请输入内容" />
+		</view>
+		<view>
+			<button>马上推荐</button>
+		</view>
+	</view>
+	<view class="TIP">
+		【温馨提示】
+	</view>
+	<view>
+		您或您的亲朋好友须在首次到访楼盘现场前，已在“颐和地产”平台上自荐或被推荐，才可享受平台返佣以及优惠政策。
+
+		请正确填写被推荐人身份证后六位，如填写错误，认购后将视为无效推荐。
+
+		如您推荐的客户意向购买店铺的，须在完成推荐后，由您本人亲自陪同客户首次到访楼盘，方可认定有效。
+	</view>
+</view>

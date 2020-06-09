@@ -1,0 +1,13 @@
+.form-item-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.form-item-container > label {
+  color: rgb(230,45,45);
+}
+.form-item-container > label > text {
+  font-size: 13px;
+}

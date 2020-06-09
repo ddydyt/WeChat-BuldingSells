@@ -1,0 +1,85 @@
+page {
+  background-color: rgb(242,242,242);
+}
+
+.width-container {
+  margin: 0 auto;
+}
+.mind-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 11px 10px;
+}
+.top-user-container {
+  display: flex;
+}
+.top-user-pic-container {
+  width: 3em;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* 邀请好友按钮 */
+.btn {
+  width: unset !important;
+  padding: 0;
+  box-sizing: border-box;
+}
+.yqbtn {
+  background-color: rgb(255,204,0);
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 5px 15px;
+}
+.yaoqing-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 8px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.yaoqing-container-right {
+  width: 52%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 钱包和券 */
+.wallet-bgcolor {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.wallet-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  background-color: rgb(230,45,45);
+  color: #fff;
+  width: 720rpx;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 5px 5px 0 0;
+}
+
+/* 我的邀请 */
+.my-invented {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 10px;
+}
+
+.list-container > view > navigator {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px 10px;
+}
+.list-container > view:last-child {
+  margin-bottom: 0px;
+}

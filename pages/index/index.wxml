@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<view class="bgContainer">
+	<!-- 顶部 -->
+	<view class="head-nav-container">
+		<view>广东</view>
+		<view class="searchInput-container">
+			<input placeholder="请输入楼盘名称"></input>
+		</view>
+	</view>
+
+	<!-- 轮播图 swiper -->
+	<view class="swiper-container">
+		<swiper indicator-dots="true" autoplay="true" interval="1000" duration="500" circular="true">
+			<block wx:for="{{ imgs }}" wx:key="this">
+				<swiper-item>
+					<image src="{{ item }}"></image>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+	<!-- 我的客户/优惠券/新盘预报 -->
+	<view class="thirdBtn-container">
+		<navigator url="./myCustomer/myCustomer">
+			<view class="my-kehu custom-ticket-container"><text class="iconfont icon-wodekehu"></text></view>
+			<text>我的客户</text>
+		</navigator>
+		<navigator url="../mind/ticket/ticket">
+		<view class="my-ticket custom-ticket-container"><text class="iconfont icon-youhuiquan"></text></view>
+			<text>我的优惠券</text>
+		</navigator>
+		<navigator>
+		<view class="loupan-predict custom-ticket-container"><text class="iconfont icon-haofangtuo400iconfontxinpandingyue"></text></view>
+			<text>新盘预报</text>
+		</navigator>
+	</view>
+
+	<!-- 公告 -->
+	<view class="pubMessage">
+		<text class="iconfont icon-tongzhi"></text>
+		<text>{{pubMessage}}</text>
+	</view>
+
+	<!-- 楼盘推荐 -->
+	<view class="tuijian-container">
+		<view class="tuijian-title">楼盘推荐</view>
+		<block wx:for="{{ tuijian }}">
+			<view class="for-items">
+      <!-- 图片区域 -->
+				<view class="items-picContainer">
+					<image src="http://t8.baidu.com/it/u=1484500186,1503043093&fm=79&app=86&f=JPEG?w=1280&h=853"></image>
+				</view>
+        <!-- 详情区域 -->
+				<view class="items-detail-container">
+					<view>{{ item.name }}</view>
+					<view>{{ item.localcation }}</view>
+					<view class="list-btn-container">
+						<navigator class="btn tuijianBtn" style="width:unset;">立即推荐</navigator>
+						<button class="btn tuijianBtn" style="width:unset;">一键拨号</button>
+					</view>
+				</view>
+			</view>
+		</block>
+	</view>
+</view>

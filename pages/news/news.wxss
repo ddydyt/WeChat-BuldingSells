@@ -1,0 +1,35 @@
+.list-container {
+  width: 720rpx;
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px 8px 8px 8px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+}
+.items-pic-container {
+  width: 8rem;
+  height: 6rem;
+}
+.items-pic-container image {
+  width: 100%;
+  height: 100%;
+}
+
+.items-detail-container {
+  margin-left: 10px;
+  border: 1px solid red;
+  width: 53%;
+}
+
+.list-title-container {
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.list-content-container {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

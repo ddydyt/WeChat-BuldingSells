@@ -1,0 +1,20 @@
+<view>
+	<!-- 列表 -->
+	<view class="list-info-container">
+		<!-- 左侧图片 -->
+		<view class="list-left-pic-containier">
+			<image src="http://t8.baidu.com/it/u=1484500186,1503043093&fm=79&app=86&f=JPEG?w=1280&h=853"></image>
+		</view>
+		<!-- 右侧信息 -->
+		<view class="list-right-info-container">
+			<view>广州颐和上院</view>
+			<view style="font-size:12px;color:#bbb;margin:5px 0;">广东省-广州市</view>
+			<!-- 立即推荐 -->
+			<view class="btn-container">
+				<navigator class="tj-navigator">立即推荐</navigator> 
+				<!-- 一键拨号 -->
+				<button class="onekey-call">一键拨号</button>
+			</view>
+		</view>
+	</view>
+</view>

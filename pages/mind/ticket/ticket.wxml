@@ -1,0 +1,34 @@
+<view>
+	<!-- 头部导航 -->
+	<view class="top-nav-container">
+		<navigator>未使用</navigator>
+		<navigator>已使用</navigator>
+		<navigator>已转让</navigator>
+		<navigator>已失效</navigator>
+	</view>
+
+	<!-- 券 -->
+	<view class="ticket-container">
+		<!-- 勾勾 -->
+		<view>
+			<checkbox></checkbox>
+		</view>
+		<!-- 券 -->
+		<view class="ticket-detail-container">
+			<!-- 购物券，title -->
+			<view class="ticket-detail-title">
+				<text>购 房 券</text>
+			</view>
+			<!-- 购物券详情 -->
+			<view class="ticket-detial-right">
+				<view>查看></view>
+				<view>10000元</view>
+				<view style="font-size:12px">有效期至2018年10月31日</view>
+				<view style="display:flex;font-size:12px">
+					<view>兑换码</view>
+					<text>未使用</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

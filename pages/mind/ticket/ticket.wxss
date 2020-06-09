@@ -1,0 +1,44 @@
+/* 顶部导航栏 */
+.top-nav-container {
+  display: flex;
+  justify-content: space;
+}
+.top-nav-container > navigator {
+  padding: 0.8rem 1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* 券 */
+.ticket-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+}
+.ticket-detail-container {
+  display: flex;
+  border: 1px solid red;
+  background-color: rgb(230,45,45);
+  padding: 0.4rem 0;
+  width: 80%;
+  margin-left: 1rem;
+  align-items: center;
+}
+.ticket-detail-title > text{
+  /* 纵向排版 */
+  writing-mode: vertical-lr;
+  padding: 0.4rem 1rem;
+  color: white;
+  border-right: 1px solid white;
+}
+.ticket-detial-right {
+  color: #fff;
+  /* border: 1px solid blue; */
+  width: 70%;
+}
+.ticket-detial-right > view:first-child {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+}

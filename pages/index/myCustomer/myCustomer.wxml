@@ -1,0 +1,37 @@
+<view>
+	<!-- 我的客户 -->
+	<view class="top-nav-tab-container">
+		<navigator style="border-bottom:2px solid rgb(230,45,45)"><text>未到访</text></navigator>
+		<navigator><text>已到访</text></navigator>
+		<navigator><text>已认购</text></navigator>
+		<navigator><text>已签约</text></navigator>
+	</view>
+
+	<!-- 全部/过期 -->
+	<view class="allOrOutOfTime">
+		<navigator><text>全部</text></navigator>
+		<navigator><text>已过期</text></navigator>
+		<navigator><text>未过期</text></navigator>
+	</view>
+</view>
+
+<!-- 列表 -->
+<view class="list-container">
+	<view>
+		<view>
+			<view>马先生</view>
+			<view>广州颐和上院</view>
+		</view>
+		<!-- 右侧 -->
+		<view>
+			<view class="days-left">剩余15天</view>
+			<view>
+				<text>15377669452</text>
+        <button class="del-btn"><text class="iconfont icon-lajitong"></text></button>
+			</view>
+		</view>
+	</view>
+
+
+	<view></view>
+</view>

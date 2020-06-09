@@ -1,0 +1,43 @@
+page {
+  background-color: rgb(242,242,242);
+}
+/* 表单容器 */
+.input-container {
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  width: 680rpx;
+  margin: 1rem auto;
+}
+.input-container > view {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 10px ;
+  background-color: #fff;
+}
+.input-container > view:last-child {
+  border-bottom: none;
+}
+.input-container > view > label {
+  width: 5rem;
+  text-align: right;
+  margin-right: 0.5rem;
+}
+
+/* 注册 */
+.btn-container {
+  width: 680rpx;
+  margin: 0 auto 1rem;
+}
+.btn-container > button {
+  width: 100% !important;
+  background-color: rgb(230,45,45);
+  color: #fff;
+  font-weight: 500;
+  border-radius: 3px;
+}
+/* 登录 */
+.login-container {
+  text-align: center;
+  color: rgb(22,155,213);
+  font-size: 12px;
+}

@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/mind/mind",
+    "pages/mind/userInfo/userInfo",
+    "pages/index/index",
+    "pages/mind/msg/msg",
+    "pages/mind/myCollection/myCollection",
+    "pages/news/news",
+    "pages/index/myCustomer/myCustomer",
+    "pages/register/register",
+    "pages/mind/ticket/ticket",
+    "pages/recommend/recommend",
+    "pages/index/search/warch",
+    "pages/index/loupanDetail/loupanDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Wechat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#0079FE",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./assets/home.png",
+        "selectedIconPath": "./assets/home-selected.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "./assets/zx.png",
+        "selectedIconPath": "./assets/zx-selected.png"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐",
+        "iconPath": "./assets/tj.png",
+        "selectedIconPath": "./assets/tj-selected.png"
+      },
+      {
+        "pagePath": "pages/mind/mind",
+        "text": "我的",
+        "iconPath": "./assets/mind.png",
+        "selectedIconPath": "./assets/mind-selected.png"
+      }
+    ]
+  }
+}

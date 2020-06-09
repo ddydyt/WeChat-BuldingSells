@@ -1,0 +1,47 @@
+.list-info-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5em 0.4rem;
+  border: 1px solid #ccc;
+}
+.list-left-pic-containier {
+  width: 8rem;
+  height: 6rem;
+}
+.list-left-pic-containier > image {
+  height: 100%;
+  width: 100%;
+}
+
+/* 右侧信息 */
+.list-right-info-container {
+  width: 57%;
+  margin-left: 0.37em;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 立即推荐 */
+.tj-navigator {
+  font-size: 13px;
+  border: 1px solid rgb(230,45,45);
+  color: rgb(230,45,45);
+  border-radius: 17px;
+  padding: 0.35em 1em;
+  text-align: center;
+  display: inline-block;
+}
+/* 一键拨号 */
+.onekey-call {
+  padding: 0.35em 1em;
+  margin: 0 !important;
+  width: unset !important;
+  background-color: white;
+  font-weight: 500;
+  font-size: 13px;
+  border: 1px solid rgb(230,45,45);
+  color: rgb(230,45,45);
+  border-radius: 17px;
+}
